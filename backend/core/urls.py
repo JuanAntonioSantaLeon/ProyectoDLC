@@ -28,5 +28,6 @@ guests_router.register(r'stays', StayViewSet, basename='guest-stays')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/', include(router.urls)),
     path("api/", include(guests_router.urls)),
 ]
