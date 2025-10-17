@@ -4,12 +4,12 @@ from django.db.models import F, Q
 
 
 class Guest(models.Model):
-    first_name = models.CharField("nombre", max_length=100)
-    last_name = models.CharField("apellidos", max_length=150)
-    email = models.EmailField("email", blank=True)
-    phone = models.CharField("teléfono", max_length=30, blank=True)
-    birth_date = models.DateField("fecha de nacimiento", null=True, blank=True)
-    notes = models.TextField("notas", blank=True, help_text="Preferencias u observaciones del huésped")
+    first_name = models.CharField("Nombre", max_length=100)
+    last_name = models.CharField("Apellidos", max_length=150)
+    email = models.EmailField("Email", blank=True)
+    phone = models.CharField("Teléfono", max_length=30, blank=True)
+    birth_date = models.DateField("Fecha de nacimiento", null=True, blank=True)
+    notes = models.TextField("Notas", blank=True, help_text="Preferencias u observaciones del huésped")
 
     class Meta:
         verbose_name = "Huésped"
