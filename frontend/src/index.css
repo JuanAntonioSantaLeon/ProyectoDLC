@@ -1,4 +1,9 @@
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@theme {
+  --color-coral: #FE938C;
+  --color-sky: #23C9FF;
+  --color-slate: #5D5F71;
+  --color-crimson: #B80C09;
+  --color-mint: #C2EABA;
+  --font-sans: "Poppins", sans-serif;
+}
