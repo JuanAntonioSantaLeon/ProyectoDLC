@@ -12,7 +12,7 @@ export default function LandingPage() {
       <main className="flex-1">
         <Hero />
         <Features />
-        <Testimonials />
+        {/* <Testimonials /> */}
       </main>
       <Footer />
     </div>

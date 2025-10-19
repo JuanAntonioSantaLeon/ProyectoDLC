@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="bg-slate text-white py-10 text-center">
-      <p>© 2025 Sigma Hotel. All rights reserved.</p>
+      <p>© 2025 Desde la Calma. Todos los derechos reservados.</p>
     </footer>
   );
 }
