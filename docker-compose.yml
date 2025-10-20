@@ -14,12 +14,8 @@ services:
     build:
       context: .
       dockerfile: frontend.Dockerfile
-    container_name: react
-    ports:
-      - "5173:5173"
     volumes:
       - ./frontend:/app
-      - node_modules:/app/node_modules
-
-volumes:
-  node_modules:
+      - /app/node_modules
+    ports:
+      - "5173:5173"
