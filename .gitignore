@@ -1,0 +1,95 @@
+# ─────────────────────────────────────────────
+# 🔹 BACKEND (Django / Python)
+# ─────────────────────────────────────────────
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/*.sqlite3
+backend/*.log
+backend/*.pot
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/*.db
+backend/*.egg-info/
+backend/*.pid
+backend/instance/
+backend/local_settings.py
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/htmlcov/
+backend/.coverage
+backend/.tox/
+backend/.ruff_cache/
+backend/.dmypy.json
+backend/.pytype/
+backend/.ruff_cache/
+
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+*.env
+.env.*
+backend/.env
+backend/.venv/
+
+# ─────────────────────────────────────────────
+# 🔹 FRONTEND (React / Vite / Tailwind)
+# ─────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.npm/
+frontend/.vite/
+frontend/.parcel-cache/
+frontend/.eslintcache
+frontend/pnpm-lock.yaml
+frontend/yarn.lock
+frontend/package-lock.json
+frontend/*.log
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+
+# ─────────────────────────────────────────────
+# 🔹 DOCKER / DEVOPS
+# ─────────────────────────────────────────────
+docker-compose.override.yml
+*.pid
+*.seed
+*.bak
+*.tmp
+*.log
+__docker_build__/
+tmp/
+logs/
+
+# ─────────────────────────────────────────────
+# 🔹 EDITORES / IDE
+# ─────────────────────────────────────────────
+.vscode/
+.idea/
+.history/
+*.code-workspace
+*.iml
+
+# ─────────────────────────────────────────────
+# 🔹 SISTEMA OPERATIVO
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ─────────────────────────────────────────────
+# 🔹 TESTS / REPORTS
+# ─────────────────────────────────────────────
+coverage.xml
+test-results/
+reports/
+*.cover
+*.coverage
+.nox/
